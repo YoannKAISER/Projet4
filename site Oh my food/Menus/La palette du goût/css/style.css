@@ -1,0 +1,301 @@
+@media (max-width: 767px) {
+    body {
+        max-width: 1440px;
+        width: 100%;
+    }
+
+    .logo {
+        width: 10em;
+        margin-left: 40%;
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
+    }
+
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 2em;
+    }
+
+    .fa-arrow-left {
+        margin-left: 1em;
+    }
+
+    .icone {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .photoMenu {
+        width: 100%;
+        display: flex;
+        object-fit: cover;
+        height: 450px;
+        position: relative;
+    }
+
+    .divmenu {
+        background-color: #f6f6f6;
+        border-radius: 40px 40px 0px 0px;
+        width: 70%;
+        margin-left: 10em;
+        padding-bottom: 5em;
+        position: absolute;
+        top: 450px;
+    }
+
+    .imgtitre {
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+
+    .titreMenu {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fa-heart {
+        margin-left: 3em;
+    }
+
+    .accompagnementprix {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .titrerecette {
+        margin-left: 4.5em;
+    }
+
+    .recette {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5em;
+    }
+
+    .choix {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #FFFFFF;
+        border-radius: 15px;
+        box-shadow: 0px 4px 15px 0px #0000001A;
+        margin-top: 1em;
+        padding-left: 1em;
+        padding-right: 1em;
+        width: 80%;
+    }
+
+    .txtchoix {
+        margin-inline: 1em;
+    }
+
+    .price {
+        padding-bottom: 1em;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .commanderButton {
+        margin-bottom: 3em;
+        margin-left: 40%;
+        height: 4em;
+        width: 10em;
+        border-radius: 25px;
+        background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+        box-shadow: 0px 4px 10px 0px #00000040;
+        border: none;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        top: 2100px;
+        width: 100%;
+        background-color: #353535;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    .foot {
+        margin-top: 0.5em;
+    }
+
+    .logoFooter {
+        width: 10em;
+        margin-left: 1em;
+        margin-bottom: 1em;
+    }
+
+    .elemImgFooter>*  , .elemFooter {
+        color: #FFFFFF;
+        margin-left: 1em;
+        margin-top: 0.5em;
+    }
+
+    .logoFooter {order: 1;}
+    .proposer {order: 2;}
+    .devenir {order: 3;}
+    .mentions {order: 4;}
+    .contact {order: 5;}
+}
+@media (min-width: 768px) {
+    body {
+        max-width: 1440px;
+        width: 100%;
+    }
+
+    .logo {
+        width: 10em;
+        margin-left: 40%;
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
+    }
+
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 2em;
+    }
+
+    .fa-arrow-left {
+        margin-left: 1em;
+    }
+
+    .icone {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .photoMenu {
+        width: 100%;
+        display: flex;
+        object-fit: cover;
+        height: 450px;
+        position: relative;
+    }
+
+    .divmenu {
+        background-color: #f6f6f6;
+        border-radius: 40px 40px 0px 0px;
+        width: 70%;
+        margin-left: 10em;
+        padding-bottom: 5em;
+        position: absolute;
+        top: 450px;
+    }
+
+    .imgtitre {
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+
+    .titreMenu {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fa-heart {
+        margin-left: 3em;
+    }
+
+    .accompagnementprix {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .titrerecette {
+        margin-left: 4.5em;
+    }
+
+    .recette {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5em;
+    }
+
+    .choix {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #FFFFFF;
+        border-radius: 15px;
+        box-shadow: 0px 4px 15px 0px #0000001A;
+        margin-top: 1em;
+        padding-left: 1em;
+        padding-right: 1em;
+        width: 80%;
+    }
+
+    .txtchoix {
+        margin-inline: 1em;
+    }
+
+    .price {
+        padding-bottom: 1em;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .commanderButton {
+        margin-bottom: 3em;
+        margin-left: 40%;
+        height: 4em;
+        width: 10em;
+        border-radius: 25px;
+        background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+        box-shadow: 0px 4px 10px 0px #00000040;
+        border: none;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer {
+        width: 100%;
+        background-color: #353535;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-start;
+        position: absolute;
+        top: 2100px;
+    }
+
+    .logoFooter {
+        width: 10em;
+        margin-left: 1em;
+        margin-bottom: 1em;
+    }
+
+    .elemImgFooter>*  , .elemFooter {
+        color: #FFFFFF;
+        margin-left: 1em;
+        margin-top: 0.5em;
+    }
+}
