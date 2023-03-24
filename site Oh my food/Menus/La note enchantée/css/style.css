@@ -43,7 +43,7 @@
         background-color: #f6f6f6;
         border-radius: 40px 40px 0px 0px;
         width: 100%;
-        padding-bottom: 5em;
+        padding-bottom: 7em;
         position: absolute;
         top: 450px;
     }
@@ -114,7 +114,7 @@
         flex-direction: column;
         align-items: flex-start;
         position: absolute;
-        top: 2100px;
+        top: 2200px;
         width: 100%;
         background-color: #353535;
         padding-top: 1em;
@@ -261,7 +261,7 @@
         justify-content: flex-end;
         align-items: flex-start;
         position: absolute;
-        top: 2100px;
+        top: 2200px;
     }
 
     .logoFooter {

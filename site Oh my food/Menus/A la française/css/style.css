@@ -88,12 +88,6 @@
         width: 80%;
     }
 
-    .price {
-        padding-bottom: 1em;
-        display: flex;
-        align-items: flex-end;
-    }
-
     .commanderButton {
         margin-bottom: 3em;
         margin-left: 40%;

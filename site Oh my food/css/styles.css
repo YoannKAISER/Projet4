@@ -30,7 +30,7 @@
         justify-content: center;
         align-items: center;
     }
-    .search {
+    .inputSearch {
         border: none;
         background-color: #EAEAEA;
         text-align: center;
@@ -45,7 +45,7 @@
         align-items: center;
     }
 
-    .menutxt {
+    .menuText {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -89,12 +89,12 @@
         margin-top: 5em;
     }
 
-    .fonctionnementChoix {
+    .fonctionnementEtapes {
         display: flex;
         flex-direction: column; 
     }
 
-    .choix {
+    .etape {
         margin-top: 2em;
         margin-left: 2em;
         background-color: #f2f2f2;
@@ -169,7 +169,7 @@
     }
 
     .fa-heart:hover {
-        background-color: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+        color: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
     }
 
     footer {
@@ -180,10 +180,6 @@
         background-color: #353535;
         padding-top: 1em;
         padding-bottom: 1em;
-    }
-
-    .foot {
-        margin-top: 0.5em;
     }
 
     .logoFooter {
@@ -238,7 +234,7 @@
         justify-content: center;
         align-items: center;
     }
-    .search {
+    .inputSearch {
         border: none;
         background-color: #EAEAEA;
         text-align: center;
@@ -253,7 +249,7 @@
         align-items: center;
     }
 
-    .menutxt {
+    .menuText {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -297,12 +293,12 @@
         margin-top: 5em;
     }
 
-    .fonctionnementChoix {
+    .fonctionnementEtapes {
         display: flex;
         flex-direction: row; 
     }
 
-    .choix {
+    .etape {
         margin-top: 2em;
         margin-left: 2em;
         background-color: #f2f2f2;
@@ -377,7 +373,7 @@
     }
 
     .fa-heart:hover {
-        background-color: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+        color: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
     }
 
     footer {
@@ -389,10 +385,6 @@
         background-color: #353535;
         padding-top: 1em;
         padding-bottom: 1em;
-    }
-
-    .foot {
-        margin-top: 0.5em;
     }
 
     .logoFooter {
