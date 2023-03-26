@@ -4,7 +4,7 @@
         width: 100%;
     }
 
-    .logo {
+    .header__logo {
         width: 10em;
         margin-left: 40%;
     }
@@ -48,7 +48,7 @@
         top: 450px;
     }
 
-    .imgTitre {
+    .titreMenu__img {
         margin-top: 3em;
         margin-bottom: 3em;
     }
@@ -64,11 +64,11 @@
         margin-left: 3em;
     }
 
-    .titreRecette {
+    .menu__titre {
         margin-left: 4.5em;
     }
 
-    .recette {
+    .menu__recette {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -94,7 +94,7 @@
         align-items: flex-end;
     }
 
-    .commanderButton {
+    .menu__button {
         margin-bottom: 3em;
         margin-left: 40%;
         height: 4em;
@@ -121,7 +121,7 @@
         padding-bottom: 1em;
     }
 
-    .logoFooter {
+    .footer__logo {
         width: 10em;
         margin-left: 1em;
         margin-bottom: 1em;
@@ -145,7 +145,7 @@
         width: 100%;
     }
 
-    .logo {
+    .header__logo {
         width: 10em;
         margin-left: 40%;
     }
@@ -190,7 +190,7 @@
         top: 450px;
     }
 
-    .imgTitre {
+    .titreMenu__img {
         margin-top: 3em;
         margin-bottom: 3em;
     }
@@ -206,11 +206,11 @@
         margin-left: 3em;
     }
 
-    .titreRecette {
+    .menu__titre {
         margin-left: 4.5em;
     }
 
-    .recette {
+    .menu__recette {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -236,7 +236,7 @@
         align-items: flex-end;
     }
 
-    .commanderButton {
+    .menu__button {
         margin-bottom: 3em;
         margin-left: 40%;
         height: 4em;
@@ -264,7 +264,7 @@
         top: 2100px;
     }
 
-    .logoFooter {
+    .footer__logo {
         width: 10em;
         margin-left: 1em;
         margin-bottom: 1em;
