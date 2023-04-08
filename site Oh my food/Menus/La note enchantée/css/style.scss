@@ -14,11 +14,10 @@ header {
     flex-direction: row;
     align-items: center;
     margin-bottom: 2em;
-}
-
-.header__logo {
-    width: 10em;
-    margin-left: 40%;
+    .header__logo {
+        width: 10em;
+        margin-left: 40%;
+    }
 }
 
 .fa-arrow-left {
@@ -60,12 +59,6 @@ header {
 
 .fa-heart {
     margin-left: 3em;
-}
-
-.fa-heart:hover {
-    font-weight: bold;
-    color: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
-    color:#9356DC;
 }
 
 .menu__titre {
@@ -114,26 +107,24 @@ header {
 }
 
 footer {
-    width: 100%;
-    background-color: #353535;
-    padding-top: 1em;
-    padding-bottom: 1em;
     display: flex;
     align-items: flex-start;
     position: absolute;
     top: 2100px;
-}
-
-.footer__logo {
-    width: 10em;
-    margin-left: 1em;
-    margin-bottom: 1em;
-}
-
-.elemImgFooter>*  , .elemFooter {
-    color: #FFFFFF;
-    margin-left: 1em;
-    margin-top: 0.5em;
+    width: 100%;
+    background-color: #353535;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    .footer__logo {
+        width: 10em;
+        margin-left: 1em;
+        margin-bottom: 1em;
+    }
+    .elemImgFooter>*  , .elemFooter {
+        color: #FFFFFF;
+        margin-left: 1em;
+        margin-top: 0.5em;
+    }
 }
 @media (max-width: 767px) {
     .divMenu {
