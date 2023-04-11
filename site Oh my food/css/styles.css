@@ -4,6 +4,59 @@ body {
     width: 100%;
 }
 
+#loader__animation {
+    width: 180px;
+    height: 180px;
+    border: 10px solid #cccccc;
+    border-radius: 50%;
+    animation-name: spin;
+    animation-duration: 2.2s;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(0.35, 0.36, 0.72, 0.72);
+    animation-fill-mode: forwards;
+    position: absolute;
+    margin: auto auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    box-shadow: 5px 10px #99e2d0, 60px -16px #acabab;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+      border-top: 30px solid #9356dc;
+      opacity: 1;
+      box-shadow: 5px 40px #99e2d0, 60px -16px #acabab;
+    }
+    50% {
+      transform: rotate(360deg);
+      border-top: 40px solid #ff79da;
+      opacity: 0.95;
+      box-shadow: 15px 10px #99e2d0, 20px -16px #acabab;
+      border-radius: 50%;
+    }
+    74% {
+      border-radius: 30%;
+    }
+    75% {
+      transform: rotate(540deg);
+      opacity: 0.9;
+      box-shadow: 5px 10px #99e2d0, -20px 16px #acabab;
+    }
+    85% {
+      border-radius: 50%;
+    }
+    100% {
+      border-radius: 50%;
+      transform: rotate(720deg);
+      border-top: 50px solid #9356dc;
+      opacity: 0;
+      box-shadow: 25px 35px #99e2d0, 10px 26px #acabab;
+    }
+  }
+
 a {
     color: black;
     text-decoration: none;
@@ -70,6 +123,11 @@ header {
     align-items: center;
 }
 
+.menu__button:hover {
+    filter: brightness(110%);
+    box-shadow: 0px 6px 8px 0px #00000040;
+}
+
 .fa-mobile-screen-button , 
 .fa-list-ul {
     color: #7e7e7e;
@@ -90,7 +148,7 @@ header {
 
 .fonctionnement__fonctionnementEtapes {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .fonctionnement__fonctionnementEtapes__etape {
@@ -103,6 +161,7 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .fonctionnement__fonctionnementEtapes__etape__div {
@@ -114,6 +173,7 @@ header {
     position: absolute;
     display: flex;
     justify-content: center;
+    margin-right: 100%;
 }
 
 .fonctionnement__fonctionnementEtapes__etape__div__numero {
@@ -177,6 +237,20 @@ header {
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     display: flex;
     flex-direction: column;
+    position: relative;
+}
+
+.card__nouveau {
+    position: absolute;
+    color: #008766;
+    background-color: #99E2D0;
+    right: 1em;
+    top: 1em;
+    height: 2em;
+    width: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .fa-heart {
@@ -184,9 +258,24 @@ header {
 }
 
 .fa-heart:hover {
+    animation: heart 1s ease-in-out;
+    opacity: 1;
+    background:linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+    background:-webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
     font-weight: bold;
-    color: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
-    color:#9356DC;
+}
+@keyframes heart {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 footer {
@@ -196,9 +285,11 @@ footer {
     padding-top: 1em;
     padding-bottom: 1em;
 }
+
 .footer__logo {
     width: 10em;
-    margin-left: 1em;
+    margin-left: 4em;
+    margin-right: 1em;
     margin-bottom: 1em;
 }
 
@@ -219,10 +310,6 @@ footer {
 
     .fonctionnement__fonctionnementEtapes__etape {
         width: 90%;
-    }
-
-    .fonctionnement__fonctionnementEtapes__etape__div {
-        margin-right: 90%;
     }
 
     .restaurants-cards {
@@ -250,15 +337,12 @@ footer {
     }
 
     .fonctionnement__fonctionnementEtapes {
-        flex-direction: row; 
+        flex-direction: row;
+        margin-left: 11%;
     }
 
     .fonctionnement__fonctionnementEtapes__etape {
         width: 20em;
-    }
-
-    .fonctionnement__fonctionnementEtapes__etape__div {
-        margin-right: 20em;
     }
 
     .restaurants-cards {
