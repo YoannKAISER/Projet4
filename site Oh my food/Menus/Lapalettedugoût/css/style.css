@@ -69,6 +69,7 @@ header {
 .fa-heart {
     margin-left: 23em;
     position: absolute;
+    font-size: x-large;
 }
 
 .fa-heart:hover {
@@ -137,16 +138,18 @@ header {
     text-align: center;
     position: absolute;
     opacity: 0;
-    width: 15%;
+    width: 1%;
     height: 100%;
-    margin-left: 83%;
+    margin-left: 84.2%;
     flex: 0%;
+    transition: all 700ms;
+    transform: translateX(100px);
 }
 
 .choix:hover > .choix__check {
-    animation: checkchoice ease-in-out 700ms;
-    transition: ease-in-out 700ms;
     flex: 25%;
+    width: 15%;
+    transform: translateX(-9px);
     background-color: #99e2d0;
     cursor: pointer;
     color: #f6f6f6;
@@ -221,7 +224,7 @@ header {
 
 .choix:hover > .price {
     transform: translateX(-50%);
-    transition: all 700ms;
+    transition: all 650ms;
     flex: 5%;
 }
 

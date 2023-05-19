@@ -70,6 +70,7 @@ header {
 .fa-heart {
     margin-left: 23em;
     position: absolute;
+    font-size: x-large;
 }
 
 .fa-heart:hover {
