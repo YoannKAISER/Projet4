@@ -118,7 +118,6 @@ header {
     box-shadow: 0px 4px 15px 0px #0000001A;
     margin-top: 1em;
     padding-left: 1em;
-    padding-right: 1em;
     width: 80%;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -137,26 +136,17 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    position: absolute;
+    right: 0;
     opacity: 0;
-    width: 15%;
+    width: 0%;
+    transition: all 700ms;
+    position: absolute;
     height: 100%;
-    margin-left: 83%;
-    flex: 0%;
 }
 
 .choix:hover > .choix__check {
-    animation: checkchoice ease-in-out 700ms;
-    transition: ease-in-out 700ms;
-    flex: 25%;
-    background-color: #99e2d0;
-    cursor: pointer;
-    color: #f6f6f6;
+    width: 100px;
     opacity: 1;
-}
-
-.choix:hover > .menu__recette__content {
-  flex: 75%;
 }
 
 .choix:hover .fa-check-circle {
@@ -218,13 +208,14 @@ header {
     padding-bottom: 1em;
     display: flex;
     align-items: flex-end;
-    transform: translate(0%);
+    margin-right: 20px;
+    transform: translateX(0px);
+    transition: all 650ms;
 }
 
 .choix:hover > .price {
-    transform: translateX(-50%);
-    transition: all 700ms;
-    flex: 5%;
+    transform: translateX(-100px);
+    transition: all 650ms;
 }
 
 
