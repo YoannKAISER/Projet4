@@ -1,7 +1,16 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(Roboto/Roboto-Regular.ttf);
+}
+
 body {
     display: flex;
     flex-direction: column;
     width: 100%;
+}
+
+h2 , h3 , p {
+    font-family: "Roboto";
 }
 
 main {
@@ -138,7 +147,7 @@ header {
     margin-bottom: 3em;
     height: 4em;
     border-radius: 25px;
-    background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+    background: linear-gradient(357deg, #9356DC -11.44%, #FF79DA 123.93%);
     box-shadow: 0px 4px 10px 0px #00000040;
     border: none;
     color: #FFFFFF;
@@ -287,7 +296,7 @@ header {
 }
 
 .fa-heart:hover {
-    animation: heart 1s ease-in-out;
+    animation: heart 500ms ease-in-out;
     opacity: 1;
     background:linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
     background:-webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
@@ -341,12 +350,27 @@ footer {
         width: 90%;
     }
 
+    .menu__button:active {
+        filter: brightness(110%);
+        box-shadow: 0px 6px 8px 0px #00000040;
+    }
+
     .restaurants-cards {
         flex-direction: column;
     }
 
     .restaurants-cards a {
         width: 90%;
+    }
+
+    .fa-heart:focus {
+        animation: heart 500ms ease-in-out;
+        opacity: 1;
+        background:linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+        background:-webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color:transparent;
+        font-weight: bold;
     }
 
     footer {
