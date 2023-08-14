@@ -7,6 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin: 0;
 }
 
 h2 , h3 , p {
@@ -105,6 +106,7 @@ header {
 .header__logo {
     width: 10em;
     margin-bottom: 1em;
+    margin-top: 1em;
 }
 
 .searchBar {
@@ -212,6 +214,7 @@ header {
 
 .fonctionnement__fonctionnementEtapes__etape__div__numero {
     display: flex;
+    font-family: "Roboto";
     align-items: center;
     color: #FFFFFF;
 }
@@ -232,13 +235,11 @@ header {
 }
 
 .restaurants-cards .card-content {
+    line-height: 8px;
     padding-left: 15px;
     padding-bottom: 1em;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    box-sizing: border-box;
 }
 
 .restaurants-cards {
@@ -263,6 +264,7 @@ header {
 
 .card-title {
     font-size: 16px;
+    font-weight: bold;
 }
 
 .card {
@@ -279,6 +281,7 @@ header {
 
 .card__nouveau {
     position: absolute;
+    font-family: "Roboto";
     color: #008766;
     background-color: #99E2D0;
     right: 1em;
@@ -292,6 +295,7 @@ header {
 
 .fa-heart {
     position: absolute;
+    font-size: large;
     margin-left: 90%;
 }
 
@@ -319,6 +323,7 @@ header {
 footer {
     display: flex;
     width: 100%;
+    font-family: "Roboto";
     background-color: #353535;
     padding-top: 1em;
     padding-bottom: 1em;
@@ -326,7 +331,7 @@ footer {
 
 .footer__logo {
     width: 10em;
-    margin-left: 4em;
+    margin-left: 1em;
     margin-right: 1em;
     margin-bottom: 1em;
 }
@@ -391,11 +396,12 @@ footer {
 
     .fonctionnement__fonctionnementEtapes {
         flex-direction: row;
-        margin-left: 11%;
+        display: flex;
+        justify-content: center;
     }
 
     .fonctionnement__fonctionnementEtapes__etape {
-        width: 20em;
+        width: 23em;
     }
 
     .restaurants-cards {
