@@ -145,6 +145,7 @@ header {
 }
 
 .menu__button {
+    z-index: 1;
     margin-top: 2em;
     margin-bottom: 3em;
     height: 4em;
@@ -341,6 +342,9 @@ footer {
     margin-left: 1em;
     margin-top: 0.5em;
 }
+
+
+
 @media (max-width: 767px) {
     .section-title {
         margin-left: 2em;
@@ -389,6 +393,9 @@ footer {
     .mentions {order: 4;}
     .contact {order: 5;}
 }
+
+
+
 @media (min-width: 768px) {
     .section-title {
         margin-left: 13%;
