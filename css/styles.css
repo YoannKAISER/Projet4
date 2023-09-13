@@ -1,3 +1,73 @@
+@media (max-width: 767px) {
+    .section-title {
+        margin-left: 2em;
+    }
+
+    .fonctionnement__fonctionnementEtapes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fonctionnement__fonctionnementEtapes__etape {
+        width: 90%;
+    }
+
+    .restaurants-cards {
+        flex-direction: column;
+    }
+
+    .restaurants-cards a {
+        width: 90%;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logoFooter {order: 1;}
+    .proposer {order: 2;}
+    .devenir {order: 3;}
+    .mentions {order: 4;}
+    .contact {order: 5;}
+}
+
+@media (min-width: 768px) {
+    .section-title {
+        margin-left: 13%;
+    }
+
+    .fonctionnement__fonctionnementEtapes {
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+    }
+
+    .fonctionnement__fonctionnementEtapes__etape {
+        width: 23em;
+    }
+
+    .restaurants-cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .restaurants-cards a {
+        width: 35%;
+    }
+
+    footer {
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .footer__logo {
+        margin-top: 1.3em;
+    }
+}
+
 @font-face {
     font-family: "Roboto";
     src: url(Roboto/Roboto-Regular.ttf);
@@ -174,7 +244,6 @@ header {
 }
 
 .section-title {
-    margin: 0;
     font-size: 22px;
 }
 
@@ -184,7 +253,8 @@ header {
 
 .fonctionnement__fonctionnementEtapes {
     display: flex;
-    justify-content: flex-start;
+    width: 78%;
+    margin-left: 10%
 }
 
 .fonctionnement__fonctionnementEtapes__etape {
@@ -297,7 +367,7 @@ header {
 .fa-heart {
     position: absolute;
     font-size: large;
-    margin-left: 90%;
+    margin-left: 85%;
 }
 
 .fa-heart:hover {
@@ -341,93 +411,4 @@ footer {
     color: #FFFFFF;
     margin-left: 1em;
     margin-top: 0.5em;
-}
-
-
-
-@media (max-width: 767px) {
-    .section-title {
-        margin-left: 2em;
-    }
-
-    .fonctionnement__fonctionnementEtapes {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .fonctionnement__fonctionnementEtapes__etape {
-        width: 90%;
-    }
-
-    .menu__button:active {
-        filter: brightness(110%);
-        box-shadow: 0px 6px 8px 0px #00000040;
-    }
-
-    .restaurants-cards {
-        flex-direction: column;
-    }
-
-    .restaurants-cards a {
-        width: 90%;
-    }
-
-    .fa-heart:focus {
-        animation: heart 500ms ease-in-out;
-        opacity: 1;
-        background:linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
-        background:-webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color:transparent;
-        font-weight: bold;
-    }
-
-    footer {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .logoFooter {order: 1;}
-    .proposer {order: 2;}
-    .devenir {order: 3;}
-    .mentions {order: 4;}
-    .contact {order: 5;}
-}
-
-
-
-@media (min-width: 768px) {
-    .section-title {
-        margin-left: 13%;
-    }
-
-    .fonctionnement__fonctionnementEtapes {
-        flex-direction: row;
-        display: flex;
-        justify-content: center;
-    }
-
-    .fonctionnement__fonctionnementEtapes__etape {
-        width: 23em;
-    }
-
-    .restaurants-cards {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .restaurants-cards a {
-        width: 35%;
-    }
-
-    footer {
-        flex-direction: row;
-        justify-content: flex-end;
-        align-items: center;
-    }
-
-    .footer__logo {
-        margin-top: 1.3em;
-    }
 }
