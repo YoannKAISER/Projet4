@@ -183,7 +183,7 @@ header {
 }
 
 .choix:hover > .menu__recette__content {
-    width: 60%;
+    width: 40%;
 }
 
 .choix:hover .fa-check-circle {
